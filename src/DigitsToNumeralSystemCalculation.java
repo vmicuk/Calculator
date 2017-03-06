@@ -13,7 +13,5 @@ public class DigitsToNumeralSystemCalculation {
         return Integer.toBinaryString(number & 0xFF);
     }
 
-    public String hex (int number) {
-        return Integer.toHexString(number & 0xFF);
-    }
+
 }
