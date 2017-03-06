@@ -5,16 +5,7 @@ public class TrigonometryCalculator {
 
     private double number;
 
-    public TrigonometryCalculator(double number) {
-        this.number = number;
-    }
-
-    public double getNumber() {
-        return number;
-    }
-
-    public void setNumber(double number) {
-        this.number = number;
+    public TrigonometryCalculator() {
     }
 
     public double sinA(double number){
