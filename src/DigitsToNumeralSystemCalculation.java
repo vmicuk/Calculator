@@ -4,6 +4,7 @@
 public class DigitsToNumeralSystemCalculation {
 
     private int number;
+    private int binary;
 
     public DigitsToNumeralSystemCalculation() {
     }
@@ -18,5 +19,9 @@ public class DigitsToNumeralSystemCalculation {
 
     public void setNumber(int number) {
         this.number = number;
+    }
+
+    public String binary(int number) {
+        return Integer.toBinaryString(number & 0xFF);
     }
 }
