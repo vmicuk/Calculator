@@ -1,5 +1,5 @@
 /**
- * Created by Evelina ir Vitalij.
+ * Created by Evelina007 O_o o_O ir Vitalij
  */
 public class DigitsToNumeralSystemCalculation {
 
@@ -13,5 +13,7 @@ public class DigitsToNumeralSystemCalculation {
         return Integer.toBinaryString(number & 0xFF);
     }
 
-
+    public String octal(int number){
+        return  Integer.toOctalString(number & 0xFF);
+    }
 }
