@@ -16,4 +16,8 @@ public class DigitsToNumeralSystemCalculation {
     public String hex(int number){
         return Integer.toHexString (number & 0xFF);
     }
+
+    public String octal(int number){
+        return Integer.toOctalString(number & 0xFF);
+    }
 }
