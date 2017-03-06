@@ -1,5 +1,5 @@
 /**
- * Created by student on 17.3.6.
+ * Created by Evelina ir Vitalij.
  */
 public class DigitsToNumeralSystemCalculation {
 
@@ -9,19 +9,9 @@ public class DigitsToNumeralSystemCalculation {
     public DigitsToNumeralSystemCalculation() {
     }
 
-    public DigitsToNumeralSystemCalculation(int number) {
-        this.number = number;
-    }
-
-    public int getNumber() {
-        return number;
-    }
-
-    public void setNumber(int number) {
-        this.number = number;
-    }
-
     public String binary(int number) {
         return Integer.toBinaryString(number & 0xFF);
     }
+
+
 }
