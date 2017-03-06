@@ -2,10 +2,7 @@
  * Created by Evelina ir Vitalij.
  */
 public class DigitsToNumeralSystemCalculation {
-
-    private int number;
-    private int binary;
-
+    
     public DigitsToNumeralSystemCalculation() {
     }
 
@@ -21,9 +18,9 @@ public class DigitsToNumeralSystemCalculation {
         return Integer.toOctalString(number & 0xFF);
     }
 
-
-
-
+    public long binaryToInt(String binaryNumber) {
+        return Integer.parseInt(binaryNumber, 2);
+    }
 
     public long octalToInt(String number){
         return Long.parseLong(number, 8);
@@ -32,17 +29,4 @@ public class DigitsToNumeralSystemCalculation {
     public long hexToInt(String number){
         return Long.parseLong(number, 16);
     }
-
-
-
-
-
-
-
-
-
-    public long binaryToInt(String binaryNumber) {
-        return Integer.parseInt(binaryNumber, 2);
-    }
-
 }
