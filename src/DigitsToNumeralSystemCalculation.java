@@ -3,6 +3,9 @@
  */
 public class DigitsToNumeralSystemCalculation {
 
+    private int number;
+    private int binary;
+
     public DigitsToNumeralSystemCalculation() {
     }
 
@@ -14,7 +17,7 @@ public class DigitsToNumeralSystemCalculation {
         return Integer.toHexString (number & 0xFF);
     }
 
-    public String octal(int number) {
+    public String octal(int number){
         return Integer.toOctalString(number & 0xFF);
     }
 
@@ -36,5 +39,10 @@ public class DigitsToNumeralSystemCalculation {
 
 
 
+
+
+    public long binaryToInt(String binaryNumber) {
+        return Integer.parseInt(binaryNumber, 2);
+    }
 
 }
