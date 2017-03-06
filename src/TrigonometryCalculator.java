@@ -3,18 +3,34 @@
  */
 public class TrigonometryCalculator {
 
-    public double sinA(double a){
-        return Math.sin(a);
+    private double number;
+
+    public TrigonometryCalculator(double number) {
+        this.number = number;
     }
 
-    public double cosA(double a){
-        return Math.cos(a);
+    public double getNumber() {
+        return number;
     }
 
-    public double tgA(double a) { return Math.tan(a);    }
+    public void setNumber(double number) {
+        this.number = number;
+    }
 
-    public double ctgA(double a) {
-        return 1.0/Math.tan(a);
+    public double sinA(double number){
+        return Math.sin(number);
+    }
+
+    public double cosA(double number){
+        return Math.cos(number);
+    }
+
+    public double tgA(double number) {
+        return Math.tan(number);
+    }
+
+    public double ctgA(double number) {
+        return 1.0/Math.tan(number);
     }
 
 }
