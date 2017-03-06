@@ -6,25 +6,7 @@ public class ArithmeticCalculation {
     private double numberOne;
     private double numberTwo;
 
-    public ArithmeticCalculation(double numberOne, double numberTwo) {
-        this.numberOne = numberOne;
-        this.numberTwo = numberTwo;
-    }
-
-    public double getNumberOne() {
-        return numberOne;
-    }
-
-    public void setNumberOne(double numberOne) {
-        this.numberOne = numberOne;
-    }
-
-    public double getNumberTwo() {
-        return numberTwo;
-    }
-
-    public void setNumberTwo(double numberTwo) {
-        this.numberTwo = numberTwo;
+    public ArithmeticCalculation() {
     }
 
     public double add (double numberOne, double numberTwo) {
