@@ -1,5 +1,5 @@
 /**
- * Created by student on 17.3.6.
+ * Created by Evelina and Vitalij.
  */
 public class DigitsToNumeralSystemCalculation {
 
@@ -8,15 +8,10 @@ public class DigitsToNumeralSystemCalculation {
     public DigitsToNumeralSystemCalculation() {
     }
 
-    public DigitsToNumeralSystemCalculation(int number) {
-        this.number = number;
-    }
 
-    public int getNumber() {
-        return number;
-    }
 
-    public void setNumber(int number) {
-        this.number = number;
-    }
+
+
+
+
 }
