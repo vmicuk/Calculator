@@ -2,7 +2,7 @@
  * Created by Evelina ir Vitalij --<--@
  */
 public class DigitsToNumeralSystemCalculation {
-    
+
     public DigitsToNumeralSystemCalculation() {
     }
 
