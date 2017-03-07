@@ -1,4 +1,6 @@
 /**
+ * @author Evelina
+ * @version 1.0
  * Created by Evelina
  */
 public class ArithmeticCalculation {
