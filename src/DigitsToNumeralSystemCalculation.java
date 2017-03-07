@@ -1,5 +1,5 @@
 /**
- * Created by Evelina ir Vitalij.
+ * Created by Evelina ir Vitalij --<--@
  */
 public class DigitsToNumeralSystemCalculation {
     
